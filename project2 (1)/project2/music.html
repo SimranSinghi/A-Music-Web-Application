@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Student Name: Simran Singhi   -->
+<html lang="en">
+  <head> <h1 style="color: black;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center;">SIMRAN SINGHI:PROJECT2:WDM</h1> 
+    <title>A Music Web Application</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="music.js"></script>
+  </head>
+  <body>
+    <form>
+       <label>Artist name: <input type="text" id="form-input" style="font-family: cursive; border-radius: 5px; background-color: blueviolet;"/></label>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+    </form>
+    <div id="container">
+      <div id="artist">
+        <!-- Artist metadata -->
+        <div id="image-container">
+          <div>
+            <h1  id="name" style="font-family: cursive; border-radius: 5px; background-color: blueviolet;"></h1>
+          </div>
+          <div style="padding-bottom: 10px;">
+            <a  href="#" id="webpageurl"></a>
+          </div>
+          <div>
+          <img src="" id="picture" />
+
+        </div>
+        <div style="background-color: cornsilk;">
+        <p  style="text-align: justify; font-family: 'Times New Roman', Times, serif;" id="bio"></p>
+        </div>
+        <!-- Top albums -->
+        <div id="top-albums" style="background-color: darkgray; border-radius: 5px;" >
+          <h2></h2>
+          <ul style="background-color: aquamarine;"></ul>
+        </div>
+      </div>
+      <!-- Similar artists -->
+      <div id="similar" style="background-color: darkgray; border-radius: 5px;">
+        <h2></h2>
+        <ul style="background-color: lightcoral;"></ul>
+      </div>
+    </div>
+  </body>
+</html>
