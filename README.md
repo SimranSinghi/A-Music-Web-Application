@@ -1,0 +1,2 @@
+# A-Music-Web-Application
+The project is developed to get information about music artists, their albums, etc. This application is developed using plain JavaScript and Ajax. This project uses the Web Service REST API of the music application Last.fm. The access key will allow to  send web service requests to Last.fm. The methods use to fetch information are artist.getinfo, artist.getTopAlbums,  artist.getSimilarArtists.
